@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Target Indicator Demo</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+
+  <div class="frame">
+    <div class="frame__head">
+      <span class="frame__caption">Target Indicator Demo</span>
+    </div>
+    <div class="frame__content">
+
+      <div class="indicator">
+        <div class="indicator__progress">
+          <span class="caption">Reached:</span>
+
+          <div class="progress">
+            <div class="progress__bar">
+              <div class="progress__bar-line" data-value="0" data-value-max="15"></div>
+            </div>
+            <div class="progress__target target">
+              <div class="target__head">
+                <span>Target</span>
+              </div>
+              <div class="target__value">
+                <span>$15</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="indicator__info">
+          <div class="ico">
+            <img src="images/info.svg" alt="I">
+          </div>
+          <p>You need $1 more to reach your target.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+
+</body>
+</html>
